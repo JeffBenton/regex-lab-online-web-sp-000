@@ -15,5 +15,5 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  text.match('(\A\d{10})(\A[(]\d{3}[)]\d{3}-\d{4})(\A\d{3} \d{3} \d{4})')
+  text.match('(\A\d{10})(\A[(]\d{3}[)]\d{3}-\d{4})(\A\d{3} \d{3} \d{4})(\A[(]\d{3}[)]\d{7})')
 end
